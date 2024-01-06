@@ -37,3 +37,15 @@ For each break point, the background of .common-breakpoints must change. You may
   height: 300px;
   background-color: blue;
 }
+
+@media only screen and (min-width:150px){
+  .common-breakpoints {
+    background-color: orangered;
+  }
+}
+
+@media only screen and (min-width: 300px){
+  .common-breakpoints {
+    background-color: orange;
+  }
+}
